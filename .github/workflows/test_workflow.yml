@@ -13,7 +13,7 @@ jobs:
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: Post to Slack
-      - uses: pcolby/post-to-slack@v1.0.1
+        uses: pcolby/post-to-slack@v1.0.1
         with:
           url: ${{ secrets.SLACK_WEBHOOK_URL }}
           text: Test message, please ignore
