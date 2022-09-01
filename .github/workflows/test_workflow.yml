@@ -17,8 +17,7 @@ jobs:
         with:
           url: ${{ secrets.SLACK_WEBHOOK_URL }}
           text: >-
-            *FORMATTING TEST*
-            \n _These tests are in the process of being moved to GitHub Actions, but at the moment they are run locally, with the results posted by a GitHub Action_
+            *FORMATTING TEST* \n _These tests are in the process of being moved to GitHub Actions, but at the moment they are run locally, with the results posted by a GitHub Action_
             \n *Tests performed:*
             \n Check age gate - Passed
             \n And user then logs in to NYPL - Passed
