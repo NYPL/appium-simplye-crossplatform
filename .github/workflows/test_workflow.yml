@@ -16,13 +16,19 @@ jobs:
         uses: pcolby/post-to-slack@v1.0.1
         with:
           url: ${{ secrets.SLACK_WEBHOOK_URL }}
-          text: "*FORMATTING TEST*
+          text: 
+            ":*FORMATTING TEST*
             _These tests are in the process of being moved to GitHub Actions, but at the moment they are run locally, with the results posted by a GitHub Action_
             *Tests performed:*
+            
             Check age gate - Passed
+            
             And user then logs in to NYPL - Passed
+            
             And user selects catalog - Passed
+            
             And user browses vertically - Passed
+            
             And user interacts with swimlane - Passed
             And user views book details - Passed
             And user views full detail - Passed
