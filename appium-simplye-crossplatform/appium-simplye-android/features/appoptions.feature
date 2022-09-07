@@ -8,7 +8,5 @@ Feature: Age Gate, Login, browse
 Scenario: View app options
 	And check age gate
 	And user navigates to settings
-	And user views about
-	And user views user agreement
 	
 	

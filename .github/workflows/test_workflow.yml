@@ -19,6 +19,7 @@ jobs:
           text: 
             ":*FORMATTING TEST*
             _These tests are in the process of being moved to GitHub Actions, but at the moment they are run locally, with the results posted by a GitHub Action_
+
             *Tests performed:*
             
             Check age gate - Passed
@@ -30,10 +31,15 @@ jobs:
             And user browses vertically - Passed
             
             And user interacts with swimlane - Passed
+
             And user views book details - Passed
+
             And user views full detail - Passed
+
             And user selects books tab - Passed
+
             And user browses specific category - Passed
+            
             *1 scenario, 9 test cases passed*"
 
       #- name: Check out repository code
