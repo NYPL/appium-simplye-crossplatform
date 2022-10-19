@@ -20,7 +20,7 @@ jobs:
             "
             _These tests are in the process of being moved to GitHub Actions, but at the moment they are run locally, with the results posted by a GitHub Action_
             
-            _Currently I have them generating Allure files, currently working on getting those served properly via GitHub Pages._
+            _Currently I have them generating Allure files, currently working on getting those served properly via GitHub Pages_
 
             *Tests performed:*
             
