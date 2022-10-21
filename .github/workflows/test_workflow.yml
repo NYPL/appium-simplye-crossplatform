@@ -15,6 +15,16 @@ jobs:
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
 
+      - uses: actions/checkout@v2
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
       - name: Allure Report action from marketplace
         uses: simple-elf/allure-report-action@master
         if: always()
