@@ -36,37 +36,37 @@ jobs:
           allure_history: allure-history
           keep_reports: 20
 
-      - name: Post to Slack
-        uses: pcolby/post-to-slack@v1.0.1
-        with:
-          url: ${{ secrets.SLACK_WEBHOOK_URL }}
-          text: 
-            "
-            _These tests are in the process of being moved to GitHub Actions, but at the moment they are run locally, with the results posted by a GitHub Action_
-            
-            _Currently I have them generating Allure files, currently working on getting those served properly via GitHub Pages_
+      #- name: Post to Slack
+      #  uses: pcolby/post-to-slack@v1.0.1
+      #  with:
+      #    url: ${{ secrets.SLACK_WEBHOOK_URL }}
+      #    text: 
+      #      "
+      #      _These tests are in the process of being moved to GitHub Actions, but at the moment they are run locally, with the results posted by a GitHub Action_
+      #      
+      #      _Currently I have them generating Allure files, currently working on getting those served properly via GitHub Pages_
 
-            *Tests performed:*
+#            *Tests performed:*
             
-            Check age gate - Passed
+#            Check age gate - Passed
             
-            And user then logs in to NYPL - Passed
+#            And user then logs in to NYPL - Passed
             
-            And user selects catalog - Passed
+ #           And user selects catalog - Passed
             
-            And user browses vertically - Passed
+  #          And user browses vertically - Passed
             
-            And user interacts with swimlane - Passed
+   #         And user interacts with swimlane - Passed
 
-            And user views book details - Passed
+    #        And user views book details - Passed
 
-            And user views full detail - Passed
+     #       And user views full detail - Passed
 
-            And user selects books tab - Passed
+      #      And user selects books tab - Passed
 
-            And user browses specific category - Passed
+       #     And user browses specific category - Passed
             
-            *1 scenario, 9 test cases passed*"
+        #    *1 scenario, 9 test cases passed*"
 
       #- name: Check out repository code
       #  uses: actions/checkout@v2
