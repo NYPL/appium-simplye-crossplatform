@@ -14,13 +14,18 @@ jobs:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      - name: Get Allure history
-        uses: actions/checkout@v2
+
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
         if: always()
-        continue-on-error: true
+        #id: allure-report
         with:
-          ref: gh-pages
-          path: gh-pages
+          allure_results: appium-simplye-crossplatform/appium-simplye-android/report/allure-results/
+          #gh_pages: gh-pages
+          #allure_report: allure-report
+          allure_history: allure-history
+          keep_reports: 20
+
       - name: Post to Slack
         uses: pcolby/post-to-slack@v1.0.1
         with:
