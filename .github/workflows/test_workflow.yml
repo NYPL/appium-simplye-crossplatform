@@ -52,29 +52,35 @@ jobs:
             "
             _These tests are in the process of being moved to GitHub Actions, but at the moment they are run locally, with the results posted by a GitHub Action_
             
-            _Allure pages are being served to GitHub actions, currently cleaning up allure history after weeks of tests in various states skewing results_
+            Tomorrow, more tests will be displayed. The current test is a placeholder to ensure Allure is working. Click the link to view the allure report: https://nypl.github.io/appium-simplye-crossplatform"
 
-            *Tests performed:*
+          #text: 
+          #  "
+          #  _These tests are in the process of being moved to GitHub Actions, but at the moment they are run locally, with the results posted by a GitHub Action_
             
-            Check age gate - Passed
-            
-            And user then logs in to NYPL - Passed
-            
-            And user selects catalog - Passed
-            
-            And user browses vertically - Passed
-            
-            And user interacts with swimlane - Passed
+          #  _Allure pages are being served to GitHub actions, currently cleaning up allure history after weeks of tests in various states skewing results_
 
-            And user views book details - Passed
-
-            And user views full detail - Passed
-
-            And user selects books tab - Passed
-
-            And user browses specific category - Passed
+           # *Tests performed:*
             
-            *1 scenario, 9 test cases passed*"
+            #Check age gate - Passed
+            
+            #And user then logs in to NYPL - Passed
+            
+            #And user selects catalog - Passed
+            
+          #  And user browses vertically - Passed
+            
+           # And user interacts with swimlane - Passed
+
+           # And user views book details - Passed
+
+          #  And user views full detail - Passed
+
+           # And user selects books tab - Passed
+
+            #And user browses specific category - Passed
+            
+            #*1 scenario, 9 test cases passed*"
 
       #- name: Check out repository code
       #  uses: actions/checkout@v2
