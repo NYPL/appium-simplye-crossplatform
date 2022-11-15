@@ -52,7 +52,7 @@ jobs:
             "
             _These tests are in the process of being moved to GitHub Actions, but at the moment they are run locally, with the results posted by a GitHub Action_
             
-            Tomorrow, more tests will be displayed. The current test is a placeholder to ensure Allure is working. Click the link to view the allure report: https://nypl.github.io/appium-simplye-crossplatform"
+            A basic smoke test has been run. Click the link to view the allure report: https://nypl.github.io/appium-simplye-crossplatform"
 
           #text: 
           #  "

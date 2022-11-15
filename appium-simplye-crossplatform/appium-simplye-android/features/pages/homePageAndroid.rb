@@ -212,8 +212,10 @@ class HomePageAndroid
    end
 
    def accessBookCover()
-     touchaction2 = Appium::TouchAction.new.tap(x: 15, y: 116)
+     sleep(2)
+     touchaction2 = Appium::TouchAction.new.tap(x: 151, y: 484)
      touchaction2.perform
+     #@@aClick.clickXpath("(//android.widget.LinearLayout[@content-desc=\"A Brief Theory of Triangular Scale, ebook, by Janet E. Irvin\"])[1]/android.widget.FrameLayout/android.widget.ImageView")
      sleep(2)
    end
 

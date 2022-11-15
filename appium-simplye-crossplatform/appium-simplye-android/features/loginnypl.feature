@@ -1,5 +1,5 @@
 @login
-Feature: Age Gate, Login, browse
+Feature: Browse books
 
 #Background:
 #    Given user is on the home page

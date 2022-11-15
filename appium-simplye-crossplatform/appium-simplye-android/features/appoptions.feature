@@ -1,5 +1,5 @@
 @login
-Feature: Age Gate, Login, browse
+Feature: Check settings
 
 #Background:
 #    Given user is on the home page

@@ -269,7 +269,7 @@ And('user moves forward by swiping') do
 end
 
 And('user opens catalog') do
-  home.openCatalog()
+  home.clickAccessibility("Catalog")
 end
 
 Then('open list view') do
