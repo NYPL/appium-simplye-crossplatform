@@ -24,35 +24,35 @@ And('user bookmarks page') do
 end
 
 And('user selects serif') do
-  home.clickAccessibility("Serif font")
+  home.clickAccessibility("Set book font to serif.")
 end
 
 And('user selects sans serif') do
-  home.clickAccessibility("Sans font")
+  home.clickAccessibility("Set book font to sans-serif.")
 end
 
 And('user selects open dyslexic') do
-  home.clickAccessibility("Open dyslexic font")
+  home.clickAccessibility("Set book font to Open Dyslexic.")
 end
 
 And('user selects white on black') do
-  home.clickAccessibility("White on black text")
+  home.clickAccessibility("Set color scheme to white text on a black background.")
 end
 
 And('user selects black on sepia') do
-  home.clickAccessibility("Black on sepia text")
+  home.clickAccessibility("Set color scheme to black text on a beige background.")
 end
 
 And('user selects black on white') do
-  home.clickAccessibility("Black on white text")
+  home.clickAccessibility("Set color scheme to black text on a white background.")
 end
 
 And('user decrease font size') do
-  home.clickAccessibility("Decrease font size")
+  home.clickAccessibility("Decrease text size.")
 end
 
 And('user increase font size') do
-  home.clickAccessibility("Increase font size")
+  home.clickAccessibility("Increase text size.")
 end
 
 And('user selects book tab') do
@@ -80,8 +80,9 @@ And('user navigates to bookmark') do
 end
 
 And('user borrows book') do
+  sleep 15
   home.accessBookCover()
-  home.borrowbook()
+  home.borrowBook()
 end
 
 And('user cancels download') do 
@@ -96,6 +97,7 @@ end
 And('user reads book') do
   sleep 10
   home.clickReadButton()
+  sleep 5
 end
 
 And('user navigates to cover') do
@@ -111,6 +113,7 @@ And('check age gate') do
 end
 
 And('user returns book') do
+  home.clickBackButton()
   home.returnBook()
 end
 
@@ -181,9 +184,9 @@ And('user opens font options') do
 end
 
 And('user selects font options') do
-  home.clickAccessibility("Serif font")
+  home.clickAccessibility("Set book font to sans-serif.")
   sleep 3
-  home.clickAccessibility("Sans font")
+  home.clickAccessibility("Set book font to serif.")
   sleep 3
   home.clickAccessibility("Open dyslexic font")
   sleep 3

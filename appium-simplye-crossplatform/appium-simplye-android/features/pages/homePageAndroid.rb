@@ -68,26 +68,27 @@ class HomePageAndroid
    end
 
    def borrowBook()
-       @@aClick.clickXpath("//XCUIElementTypeButton[@name=\"Get\"]")
+       @@aClick.clickAccessibilityId("Download Button")
    end
 
    def clickReadButton()
-       @@aClick.clickXpath("//XCUIElementTypeButton[@name=\"Read\"]")
+       @@aClick.clickAccessibilityId("Read Button")
    end
 
    def returnBook()
-       @@aClick.clickXpath("//XCUIElementTypeButton[@name=\"Return\"]")
-       sleep 1
-       @@aClick.clickXpath("//XCUIElementTypeButton[@name=\"Return\"]")
+       sleep 4
+       
+       @@aClick.clickAccessibilityId("Delete Button")
+       sleep 4
    end
 
    def cancelDownload()
        sleep 1
-       @@aClick.clickXpath("//XCUIElementTypeButton[@name=\"Cancel\"]")
+       @@aClick.clickAccessibilityId("Download Button")
    end
 
    def downloadBook()
-       @@aClick.clickXpath("//XCUIElementTypeButton[@name=\"Download\"]")
+       @@aClick.clickAccessibilityId("Download Button")
    end
 
    def tapScreen()
@@ -149,7 +150,8 @@ class HomePageAndroid
    end
 
    def exitFontMenu()
-     TouchAction.new.tap(x: 677, y: 368).perform    
+     touchaction2 = Appium::TouchAction.new.tap(x: 151, y: 484)
+     touchaction2.perform 
    end
 
    def exitBook()
