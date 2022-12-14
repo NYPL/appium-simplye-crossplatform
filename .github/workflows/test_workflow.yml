@@ -50,7 +50,7 @@ jobs:
           url: ${{ secrets.SLACK_WEBHOOK_URL }}
           text: 
             "
-            _These mobile automated tests are run via GitHub Actions._
+            _These mobile automated tests are run via GitHub Actions_
             
             A smoke test has been run. Click the link to view the allure report: https://nypl.github.io/appium-simplye-crossplatform"
 
