@@ -1,8 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Nov 15 22:03:18 GMT 2022","Tue Nov 15 22:04:10 GMT 2022","52078","","Update settings","","1initiallogin","","Initial Navigation Checks","Location - features/1initiallogin.feature:8"
-"passed","Wed Nov 16 19:16:05 GMT 2022","Wed Nov 16 19:17:28 GMT 2022","82372","","Font Options","","fontoptions","","Font Options","Location - features/fontoptions.feature:8"
-"passed","Tue Nov 15 22:12:43 GMT 2022","Tue Nov 15 22:13:26 GMT 2022","43093","","Check settings","","appoptions","","View app options","Location - features/appoptions.feature:8"
-"passed","Tue Nov 15 22:15:05 GMT 2022","Tue Nov 15 22:15:48 GMT 2022","42765","","Log in","","viewmoreoptions","","View app options","Location - features/viewmoreoptions.feature:8"
-"passed","Mon Nov 14 14:44:49 GMT 2022","Mon Nov 14 14:45:31 GMT 2022","42289","","Age Gate, Login, browse","","1appoptions","","View app options","Location - features/1appoptions.feature:8"
-"passed","Wed Nov 16 19:38:19 GMT 2022","Wed Nov 16 19:40:00 GMT 2022","100261","","Borrow Book","","borrowbook","","Borrow Book","Location - features/borrowbook.feature:8"
-"passed","Tue Nov 15 22:13:26 GMT 2022","Tue Nov 15 22:14:18 GMT 2022","51892","","Age Gate, Login, browse","","initiallogin","","Initial Navigation Checks","Location - features/initiallogin.feature:8"
