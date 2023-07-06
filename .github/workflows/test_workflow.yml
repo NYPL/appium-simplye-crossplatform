@@ -52,7 +52,7 @@ jobs:
             "
             _These mobile automated tests are run via GitHub Actions._
             
-            A smoke test has been run. Click the link to view the allure report: https://nypl.github.io/appium-simplye-crossplatform."
+            A smoke test has been run. Click the link to view the allure report: https://nypl.github.io/appium-simplye-crossplatform"
 
           #text: 
           #  "
